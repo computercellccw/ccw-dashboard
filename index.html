@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#102e52" />
+    <meta
+      name="description"
+      content="State Cyber Crime Co-ordination Center (S4C) - West Bengal Cyber Crime Wing."
+    />
+    <title>West Bengal Cyber Crime Wing | S4C</title>
+
+    <!-- Favicon / Browser Tab Icon -->
+    <link rel="icon" type="image/png" href="/ccw.png" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      .nav-tab {
+        transition: all 0.2s ease;
+      }
+
+      .nav-tab:hover {
+        transform: translateY(-2px);
+      }
+    </style>
+  </head>
+
+  <body
+    id="home"
+    class="min-h-screen bg-slate-50 text-slate-800 antialiased flex flex-col"
+  >
+    <!-- Header -->
+    <header class="bg-white border-b-4 border-amber-500 shadow-sm">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
+        <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
+          <!-- Logo -->
+          <a
+            href="#home"
+            class="shrink-0"
+            aria-label="West Bengal Cyber Crime Wing home"
+          >
+            <img
+              src="ccw.png"
+              alt="West Bengal Cyber Crime Wing Logo"
+              class="w-20 h-20 sm:w-24 sm:h-24 object-contain"
+              onerror="
+                this.style.display = 'none';
+                document
+                  .getElementById('logo-fallback')
+                  .classList.remove('hidden');
+              "
+            />
+            <div
+              id="logo-fallback"
+              class="hidden w-20 h-20 sm:w-24 sm:h-24 rounded-full border-2 border-blue-900 bg-blue-50 text-blue-900 flex items-center justify-center text-center text-xs font-bold p-2"
+            >
+              WB<br />CYBER CRIME
+            </div>
+          </a>
+
+          <!-- Department Name -->
+          <div class="text-center sm:text-left">
+            <h1
+              class="text-xl sm:text-2xl lg:text-3xl font-extrabold text-blue-950 tracking-tight"
+            >
+              State Cyber Crime Co-ordination Center (S4C)
+            </h1>
+            <p
+              class="mt-1 text-sm sm:text-base lg:text-lg font-semibold text-slate-600"
+            >
+              West Bengal Cyber Crime Wing
+            </p>
+            <!-- <div
+              class="mt-3 flex items-center justify-center sm:justify-start gap-2"
+            >
+              <span class="h-1 w-10 rounded-full bg-amber-500"></span>
+              <span class="text-xs uppercase tracking-[0.2em] text-slate-500">
+                Government of West Bengal
+              </span>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow">
+      <!-- Three Navigation Tabs -->
+      <section
+        class="bg-gradient-to-br from-blue-950 via-blue-900 to-slate-800 text-white max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14"
+      >
+        <div class="text-center mb-8">
+          <h2
+            class="mt-5 text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight"
+          >
+            Our Portals
+          </h2>
+          <p class="mt-5 text-sm sm:text-base leading-7 text-blue-100">
+            Select a portal to access the relevant services.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <!-- Tab 1: Money Trail -->
+          <a
+            href="https://mtrail.ccw-ncrp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="nav-tab group rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-lg hover:border-blue-300 focus:outline-none focus:ring-4 focus:ring-blue-100"
+          >
+            <div class="flex items-center justify-between">
+              <div
+                class="flex h-12 w-12 items-center justify-center rounded-lg bg-blue-100 text-blue-900"
+              >
+                <svg
+                  class="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.8"
+                    d="M3 5h18v14H3z M3 10h18 M8 10v9"
+                  />
+                </svg>
+              </div>
+              <span
+                class="text-slate-400 group-hover:text-blue-700 text-xl"
+                aria-hidden="true"
+                >↗</span
+              >
+            </div>
+            <h3 class="mt-5 text-lg font-bold text-slate-900">Money Trail</h3>
+            <p class="mt-2 text-sm leading-6 text-slate-600">
+              Track and investigate the flow of money linked to cybercrime
+              complaints, helping identify fraudulent transactions, beneficiary
+              accounts, and financial trails.
+            </p>
+            <!-- Portal URL -->
+            <p class="mt-3 break-all text-xs text-slate-500">
+              <span class="font-semibold">URL: </span>
+              <span class="text-blue-700">https://mtrail.ccw-ncrp.com</span>
+            </p>
+            <span class="mt-5 inline-block text-sm font-semibold text-blue-800">
+              Visit Portal →
+            </span>
+          </a>
+
+          <!-- Tab 2: NCMEC -->
+          <a
+            href="https://ncmec.ccw-ncrp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="nav-tab group rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-lg hover:border-blue-300 focus:outline-none focus:ring-4 focus:ring-blue-100"
+          >
+            <div class="flex items-center justify-between">
+              <div
+                class="flex h-12 w-12 items-center justify-center rounded-lg bg-emerald-100 text-emerald-800"
+              >
+                <svg
+                  class="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.8"
+                    d="M12 3l8 4v5c0 4.5-3.4 7.5-8 9-4.6-1.5-8-4.5-8-9V7l8-4z M9 12l2 2 4-4"
+                  />
+                </svg>
+              </div>
+              <span
+                class="text-slate-400 group-hover:text-blue-700 text-xl"
+                aria-hidden="true"
+                >↗</span
+              >
+            </div>
+            <h3 class="mt-5 text-lg font-bold text-slate-900">
+              NCMEC – Online Crime Against Women & Children
+            </h3>
+            <p class="mt-2 text-sm leading-6 text-slate-600">
+              Support the review and investigation of cybercrime reports
+              involving online child exploitation and related incidents reported
+              through NCMEC.
+            </p>
+            <!-- Portal URL -->
+            <p class="mt-3 break-all text-xs text-slate-500">
+              <span class="font-semibold">URL: </span>
+              <span class="text-blue-700">https://ncmec.ccw-ncrp.com</span>
+            </p>
+
+            <span class="mt-5 inline-block text-sm font-semibold text-blue-800">
+              Visit Portal →
+            </span>
+          </a>
+
+          <!-- Tab 3: Crime Criminal Search -->
+          <a
+            href="https://crime.ccw-ncrp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="nav-tab group rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-lg hover:border-blue-300 focus:outline-none focus:ring-4 focus:ring-blue-100 sm:col-span-2 lg:col-span-1"
+          >
+            <div class="flex items-center justify-between">
+              <div
+                class="flex h-12 w-12 items-center justify-center rounded-lg bg-amber-100 text-amber-800"
+              >
+                <svg
+                  class="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.8"
+                    d="M7 3h7l5 5v13H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z M14 3v6h5 M9 13h6 M9 17h6"
+                  />
+                </svg>
+              </div>
+              <span
+                class="text-slate-400 group-hover:text-blue-700 text-xl"
+                aria-hidden="true"
+                >↗</span
+              >
+            </div>
+
+            <h3 class="mt-5 text-lg font-bold text-slate-900">
+              Crime & Criminal Search (Cyber Crime)
+            </h3>
+            <p class="mt-2 text-sm leading-6 text-slate-600">
+              Search and cross-reference crime-related information to support
+              suspect identification, criminal record checks, and cybercrime
+              investigations.
+            </p>
+            <!-- Portal URL -->
+            <p class="mt-3 break-all text-xs text-slate-500">
+              <span class="font-semibold">URL: </span>
+              <span class="text-blue-700">https://crime.ccw-ncrp.com</span>
+            </p>
+            <span class="mt-5 inline-block text-sm font-semibold text-blue-800">
+              Visit Portal →
+            </span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Emergency Helpline Banner -->
+      <section class="bg-amber-50 border-y border-amber-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <div
+            class="flex flex-col sm:flex-row items-center justify-between gap-4"
+          >
+            <div class="text-center sm:text-left">
+              <p class="text-sm font-semibold text-amber-900">
+                Financial Cyber Fraud Helpline
+              </p>
+              <p class="mt-1 text-sm text-slate-600">
+                Report suspected financial cyber fraud as soon as possible.
+              </p>
+            </div>
+
+            <a
+              href="tel:1930"
+              class="inline-flex items-center gap-3 rounded-lg bg-red-700 px-6 py-3 text-white shadow-sm hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-200"
+              aria-label="Call cyber financial fraud helpline 1930"
+            >
+              <span class="text-xl" aria-hidden="true">☎</span>
+              <span>
+                <span class="block text-xs text-red-100">Call Helpline</span>
+                <span class="block text-2xl font-extrabold tracking-wider"
+                  >1930</span
+                >
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Us -->
+      <section
+        id="contact"
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16"
+      >
+        <div
+          class="gap-8 lg:gap-12 items-stretch"
+        >
+          <!-- Contact Information -->
+          <div class="flex flex-col justify-center">
+            <p
+              class="text-sm font-bold uppercase tracking-widest text-amber-600"
+            >
+              Get in Touch
+            </p>
+            <h2 class="mt-2 text-3xl font-bold text-blue-950">Contact Us</h2>
+            <p class="mt-4 text-sm sm:text-base leading-7 text-slate-600">
+              For official correspondence and departmental enquiries, please
+              contact the West Bengal Cyber Crime Wing at the address below.
+            </p>
+
+            <div class="mt-8 space-y-6 flex flex-wrap justify-between gap-6">
+              <div class="flex gap-4">
+                <div
+                  class="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-blue-100 text-blue-900"
+                >
+                  <svg
+                    class="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.8"
+                      d="M12 21s7-5.5 7-12a7 7 0 1 0-14 0c0 6.5 7 12 7 12z M12 11a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-bold text-slate-900">Office Address</h3>
+                  <address
+                    class="mt-2 text-sm leading-6 text-slate-600 not-italic"
+                  >
+                    West Bengal Cyber Crime Wing<br />
+                    Smart Connect, 1st Floor<br />
+                    New Town, Kolkata – 700161<br />
+                    West Bengal, India
+                  </address>
+                </div>
+              </div>
+
+              <div class="flex gap-4">
+                <div
+                  class="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-amber-100 text-amber-800"
+                >
+                  <svg
+                    class="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.8"
+                      d="M4 4h16v16H4z M4 6l8 7 8-7"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-bold text-slate-900">Cyber Fraud Helpline</h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    For reporting financial cyber fraud:
+                  </p>
+                  <a
+                    href="tel:1930"
+                    class="mt-1 inline-block text-lg font-bold text-red-700 hover:underline"
+                  >
+                    1930
+                  </a>
+                </div>
+              </div>
+
+              <div class="flex gap-4">
+                <div
+                  class="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-emerald-100 text-emerald-800"
+                >
+                  <svg
+                    class="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.8"
+                      d="M12 3l8 4v5c0 4.5-3.4 7.5-8 9-4.6-1.5-8-4.5-8-9V7l8-4z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-bold text-slate-900">Official S4C Website</h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    Visit the official portal for verified information.
+                  </p>
+                  <a
+                    href="https://cybercrimewing.wb.gov.in/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="mt-1 inline-block text-sm font-semibold text-blue-800 hover:underline"
+                  >
+                    Open Official Portal →
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-300">
+      <!-- Footer Main -->
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <!-- Department -->
+          <div class="lg:col-span-1">
+            <h2 class="text-lg font-bold text-white">
+              State Cyber Crime Co-ordination Center (S4C)
+            </h2>
+            <p class="mt-3 text-sm leading-6 text-slate-400">
+              West Bengal Cyber Crime Wing
+            </p>
+          </div>
+
+          <!-- Subdomain Links -->
+          <div>
+            <h3 class="font-bold text-white">Quick Links</h3>
+            <ul class="mt-4 space-y-3 text-sm">
+              <li>
+                <a
+                  href="https://mtrail.ccw-ncrp.com/"
+                  class="hover:text-amber-400 transition-colors"
+                >
+                  Money Trail
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://ncmec.ccw-ncrp.com/"
+                  class="hover:text-amber-400 transition-colors"
+                >
+                  NCMEC – Online Crime Against Women & Children
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://crime.ccw-ncrp.com/"
+                  class="hover:text-amber-400 transition-colors"
+                >
+                  Crime & Criminal Search (Cyber Crime)
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Helpline -->
+          <div>
+            <h3 class="font-bold text-white">Emergency Assistance</h3>
+            <p class="mt-3 text-sm text-slate-400">
+              Financial Cyber Fraud Helpline
+            </p>
+            <a
+              href="tel:1930"
+              class="mt-2 inline-block text-3xl font-extrabold text-amber-400 hover:text-amber-300"
+            >
+              1930
+            </a>
+            <p class="mt-2 text-xs text-slate-400">
+              Call promptly if you suspect financial cyber fraud.
+            </p>
+          </div>
+
+          <!-- Official Website -->
+          <div>
+            <h3 class="font-bold text-white">Official Website</h3>
+            <p class="mt-3 text-sm leading-6 text-slate-400">
+              Access the official national cybercrime reporting portal.
+            </p>
+            <a
+              href="https://www.cybercrime.gov.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-amber-400 hover:text-amber-300"
+            >
+              National Cyber Crime Portal ↗
+            </a>
+            <a
+              href="https://www.cybercrimewing.wb.gov.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-amber-400 hover:text-amber-300"
+            >
+              S4C (West Bengal) Official Portal ↗
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="border-t border-slate-800">
+        <div
+          class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left"
+        >
+          <p class="text-xs text-slate-400">
+            © <span id="year"></span> State Cyber Crime Co-ordination Center
+            (S4C). All rights reserved.
+          </p>
+          <a
+            href="#home"
+            class="text-xs font-semibold text-slate-300 hover:text-amber-400"
+          >
+            Back to Top ↑
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
